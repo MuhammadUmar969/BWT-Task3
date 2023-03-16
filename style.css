@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.main h1{
+  color: #ffff;
+  font-weight: 800;
+  font-size: 40px;
+  padding: 5px 30px;
+}
+
+.main, a{
+    list-style: none;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.main, a:hover{
+    color: rgb(187, 181, 181);
+}
+
+.hero_section{
+    background-image: url(image.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_container, h2{
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 54px;
+    padding-left: 46px;
+    font-size: 40px;
+}
+.lg_text{
+    font-size: 72px;
+    font-weight: 400;
+    color: #ffff;
+  }
+.input_section{
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fbfafa;
+
+}
+.input_section , h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+   color: black;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 800;
+}
+.input_form , input{
+    font-size: 20px;
+    height: 40%;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    margin-bottom: 10px;
+}
+button{
+    margin-top: 10px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: black;
+    color: #ffff;
+}
+button:hover{
+    background-color: orange;
+    color: white;
+}
+.bottom_section{
+    display: flex;
+}
+.contact{
+    background-color:darkslategrey;
+}
+.About{
+    background-color:olive;
+}
+
+.contact,.About{
+    min-height: 300px;
+    padding: 32px;
+    color: white;
+}
+
+.contact p, .About p{
+    margin-bottom: 20px;
+}
+
+.contact h2, .About h2{
+    font-size: 52px;
+    font-weight: 300;
+}
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    background-color:black;
+    color: white;
+    padding: 30px;
+}
